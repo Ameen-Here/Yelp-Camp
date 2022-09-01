@@ -1,0 +1,43 @@
+<% layout('/layout/boilerplate.ejs') %>
+<style>
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("https://images.unsplash.com/photo-1517217451453-818405428795?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  * {
+    text-align: center;
+  }
+  p {
+    font-size: 17px;
+  }
+
+  section {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  button {
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+  }
+</style>
+<section>
+  <h1 class="mb-5">YelpCamp</h1>
+  <h3>Welcome to YelpCamp</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic,
+    expedita nisi odio molestiae fugit laboriosam! Tenetur sed consequatur ipsa,
+    voluptatum maxime rerum aliquam! Perspiciatis qui dolor quibusdam tenetur
+    explicabo. Eum ut fugit id unde ullam sapiente magni eos quibusdam, qui
+    adipisci vel cumque odio recusandae animi fugiat totam. Officiis maiores
+    repellendus ullam eligendi iusto, dolorem doloremque quos ab maxime.
+  </p>
+  <form action="/campgrounds">
+    <button type="submit">Get Started</button>
+  </form>
+</section>
